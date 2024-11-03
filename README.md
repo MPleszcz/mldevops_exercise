@@ -10,7 +10,7 @@ The first things done with this repo are some initial steps that include:
 - Copying project files from previous laboratories
 - Creating this readme
 
-All these steps were done on `feature/task_0` brach.
+All these steps were done on `feature/task_0` branch.
 
 ## Task 1
 
