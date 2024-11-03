@@ -1,0 +1,22 @@
+{
+    "name": "autoencoders",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot"
+            ]
+        }
+    },
+    "runArgs": [
+        "--gpus",
+        "all"
+    ],
+    "remoteUser": "user"
+}
