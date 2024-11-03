@@ -11,7 +11,7 @@ RUN apt update && apt install -y \
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir ipykernel "black[jupyter]"
+RUN pip install --no-cache-dir ipykernel "black[jupyter]" pre-commit
 
 # Create an user
 # -------------------------------------------------------------------------------------------- #
