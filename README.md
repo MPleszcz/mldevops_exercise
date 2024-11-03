@@ -14,7 +14,11 @@ All these steps were done on `feature/task_0` branch.
 
 ## Task 1
 
-TODO
+Installed `black` with Jupyter Notebook support by adding `pip install "black[jupyter]"` to the `Dockerfile`. The tool was run inside the container using the following command:
+```bash
+black --line-length 120 $PWD
+```
+The code was succesfully reformatted.
 
 ## Task 2
 
